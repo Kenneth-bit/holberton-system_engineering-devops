@@ -1,0 +1,2 @@
+#!/bin/bash
+mv --suffix=[A-Z] -t /tmp/u \n
