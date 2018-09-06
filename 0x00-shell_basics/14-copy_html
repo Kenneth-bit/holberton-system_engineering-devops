@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --parent -u .html \n
+cp --parent -u *.html;
