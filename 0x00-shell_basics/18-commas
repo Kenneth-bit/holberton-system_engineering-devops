@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -n | tr ','
+sort -n | ls -m -a -p
