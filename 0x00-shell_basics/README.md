@@ -1,10 +1,13 @@
-Requirements:
+# 0x00. Shell, basics
+
+## Requirements:
 
 All scripts must be 2 lines long
 All file's first lines must be #!/bin/bash
 All files must end with a new line
 All scripts must be executable chmod u+x filename
-Tasks:
+
+## Tasks:
 
 Where am I?
 Whats in there?
