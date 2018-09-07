@@ -1,2 +1,2 @@
 #!/bin/bash
-mv [A-Z]* --target-directory=/tmp/u
+mv --target-directory=/tmp/u [A-Z]*
