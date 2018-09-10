@@ -1,2 +1,2 @@
 #!/bin/ibash
-find . -type f -empty -printf "%f\n"
+find . -empty -printf "%f\n"
