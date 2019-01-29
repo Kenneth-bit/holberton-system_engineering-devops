@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Gives info on holbertonschool file
 
-if [ ! -f holbertonschool ]
+if [ ! -e holbertonschool ]
 then
     echo "holbertonschool file does not exist"
 else
