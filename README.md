@@ -1,8 +1,11 @@
 # Holberton System Engineering Devops :computer:
 
-## Table of Contents :open_file_folder:
+## Description
+Holberton's curriculum for system engineering. These projects are meant to help us learn the basics of devops.
 
 ---
+
+## Table of Contents :open_file_folder:
 
 ### [0x00. Shell, basics](./0x00-shell_basics)
 
@@ -27,6 +30,10 @@
 ### [0x0B. Web server](./0x0B-web_server)
 
 ### [0x0C. Web stack debugging #0](./0x0C-web_stack_debugging_0)
+
+### [0x0D. Configuration Management](./0x0D-configuration_management)
+
+### [0x0E. Web stack debugging #1](./0x0E-web_stack_debugging_1)
 
 ### [Command line for the win](./command_line_for_the_win)
 
