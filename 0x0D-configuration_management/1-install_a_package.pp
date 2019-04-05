@@ -1,5 +1,5 @@
 # install puppet-lint
 package { 'puppet-lint':
-    name    => 'puppet-lint',
-    ensure  => '2.1.1'
+    ensure  => '2.1.1',
+    name    => 'puppet-lint'
 }
