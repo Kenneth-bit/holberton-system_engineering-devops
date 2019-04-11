@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # configure domain zone
-ARR=('www' 'lb-01' 'web-01' 'web-02')
 splitter () {
     TEMP=$(dig "$SUBD" | grep -A1 'ANSWER SECTION:' | tail -1)
     A=$(echo "$TEMP" | awk '{ print $4 }')
@@ -14,6 +13,7 @@ then
     echo "The subdomain $2 is a $A record and points to $B"
 elif [ $# -eq 1 ]
 then
+    ARR=('www' 'lb-01' 'web-01' 'web-02')
     for i in "${ARR[@]}"
     do
         SUBD="$i.$1"
