@@ -10,14 +10,14 @@ splitter () {
 if [ $# -eq 2 ]
 then
     SUBD="$2.$1"
-    splitter $SUBD
+    splitter "$SUBD"
     echo "The subdomain $2 is a $A record and points to $B"
 elif [ $# -eq 1 ]
 then
     for i in "${ARR[@]}"
     do
         SUBD="$i.$1"
-        splitter $SUBD
+        splitter "$SUBD"
         echo "The subdomain $i is a $A record and points to $B"
     done
 fi
