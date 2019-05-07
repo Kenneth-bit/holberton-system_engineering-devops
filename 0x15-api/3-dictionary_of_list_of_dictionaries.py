@@ -5,7 +5,7 @@ import requests
 
 
 def make_all(users=None, todos=None):
-    """Turns payloads into CSV format"""
+    """Turns all payloads into JSON format"""
     all_list = []
     alljson = {}
     with open("todo_all_employees.json", "w") as f:
@@ -15,7 +15,7 @@ def make_all(users=None, todos=None):
                 if u == i.get("userId"):
                     all_list.append({"username": users[0].get("username"),
                                      "task": i.get("title"),
-                                     "completed": users[0].get("completed")})
+                                     "completed": i.get("completed")})
             alljson[u] = all_list
         json.dump(alljson, f)
 
