@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Script that uses REST API"""
-import sys
 import requests
+import sys
 
 if __name__ == "__main__":
     if len(sys.argv) == 2 and sys.argv[1].isdigit():

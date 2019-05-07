@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Script that uses REST API"""
-import sys
-import requests
 import csv
+import requests
+import sys
 
 
 def make_csv(users=None, todos=None):
