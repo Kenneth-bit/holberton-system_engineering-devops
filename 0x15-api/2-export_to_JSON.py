@@ -10,10 +10,9 @@ def make_json(users=None, todos=None, u=None):
     all_list = []
     with open(sys.argv[1] + ".json", "w") as f:
         for i in todos:
-            all_list.append({"USER_ID": i.get("userId"),
-                             "USERNAME": users[0].get("username"),
-                             "TASK_COMPLETED_STATUS": i.get("completed"),
-                             "TASK_TITLE": i.get("title")})
+            all_list.append({"task": i.get("title"),
+                             "completed": i.get("completed"),
+                             "username": users[0].get("username")})
         alljson = {str(u): all_list}
         json.dump(alljson, f)
 
