@@ -13,6 +13,6 @@ def top_ten(subreddit):
             print(i.get("data", None).get("title", None))
     else:
         print(None)
-    
+
 if __name__ == "__main__":
     pass
